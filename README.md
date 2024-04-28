@@ -1,2 +1,1 @@
-# Hackaton-NNA-2024
-3er Hacaton por los derechos de las Niñas, Niños y Adolescentes
+3er Hackaton por los derechos de las Niñas, Niños y Adolescentes
