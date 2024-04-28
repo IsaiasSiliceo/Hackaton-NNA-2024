@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    padding: 0;
+    color: #1F3E72;
+    /* background-color: lightblue; */
+}
+
+/* Barra de navegacion */
+
+header {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 13vh;
+    width: 90%;
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.menu-item{
+    list-style-type:none;
+}
+
+#logo {
+    position: relative;
+    left: 50px;
+    font-size: x-large;
+    font-weight: bold;
+    color: #2C4CCA;
+}
+
+.barra-nav a{
+    text-decoration:none;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out .2s;
+    color: #8b8887;
+}
+.barra-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.barra-nav li a:hover{
+    color: #1F3E72;
+    justify-content: center;
+}
+
+button{
+    background-color: #2C4CCA;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 4px;
+    padding: 15px 8px;
+    font-size: medium;
+}
+
+
+.button-nav:hover, .button-schedule:hover{
+    background-color: #1F3E72;
+    cursor: pointer;
+}
+
+
+/* Main */
+/* Primer seccion */
+main{
+    height: 1200px;
+    width: 100%;
+    /* background-color: lightblue;  */
+}
+
+.section1{
+    display: flex;
+    height: 624px;
+    background-image: url(../img/calcetin.png);
+    /* background-color: lightblue; */
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 50% 100%;
+    width: 100%;
+}
+
+.part1-text{
+    height: 30vh;
+    position:absolute;
+    top: 150px;
+    left: 90px;
+}
+
+
+h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.text {
+    color: #8b8887;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.material-icons {
+    background: #3353d11c;
+    color: #3353d1;
+    margin-right: 5px;
+    border-radius: 3px;
+    padding: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.green {
+    background: #ffd0121f;
+    color: #ffd012;
+}
+
+.part1-icon {
+    position: absolute;
+    font-weight: 600;
+    font-size: small;
+    display: flex;
+    top: 58%;
+    left: 90px;
+}
+
+.text-icon-shield {
+    position: absolute;
+    left: 190px;
+    top: 6px;
+}
+
+.text-icon-star {
+    position: absolute;
+    left: 40px;
+    top: 6px;
+}
+
+#star {
+    margin-left: 110px;
+}
+
+.part2-icon {
+    display: flex;
+    position: absolute;
+    font-weight: 600;
+    font-size: x-large;
+    top: 67%;
+    left: 90px;
+    padding: 2em 1em;
+    align-items: center;
+    /* background-color: yellowgreen;
+    padding: 10px; */
+}
+
+.schedule{
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    top: 510px;
+    left: 90px;
+    background-color: rgb(255, 255, 255,0.9);
+    width: 800px;
+    height: 90px;
+    border-radius: 4px;
+    border: rgba(128, 128, 128, 0.349) 1px solid;
+    box-shadow: 3px 3px 8px rgb(191, 197, 212);
+    z-index: 0;
+    padding: 10px;
+}
+
+
+select, .input-date {
+    padding-left: 30px;
+    border: none;
+    font-family: 'League Spartan', sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255,0.9)
+}
+
+/* quitar icono de calendario */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    }
+
+.button-schedule {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+
+/* Seccion 2 */
+/* Logos de vacunas */
+
+.sec2-logos-vaccines {
+    display: flex;
+    flex-flow: row wrap;
+    filter: grayscale(100%) opacity(18%);
+    height: 14%;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.sec2-logos-vaccines img {
+    width: 18%;
+}
+
+#logos-vaccine-pfizer {
+    height: 50px;
+    top: 30px;
+}
+
+  /* Por que deberia vacunarme */
+
+h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+h4{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.item{
+    font-size: small;
+}
+
+.part1-text2{
+    position: relative;
+    left: 90px;
+    width: 90%;
+}
+
+.part2-cont{
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+}
+
+.part2-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.card {
+    margin: 1%; 
+    border: 1px solid rgba(128, 128, 128, 0.151);
+    box-shadow: 0 2px 2px rgba(0, 0, 255, 0.26);    
+    border-radius: 4px;
+    margin: 10px;
+    width: 20%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.card span{
+    margin-top: 15px;
+}
+
+.card p{
+    margin-top: 15px;
+    padding: 0 15px;
+    font-size: small;
+}
+
+.card h4{
+    margin-top: 15px;
+    padding: 0 15px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.card-body {
+    margin: 15px;
+    display: inline;
+}
+
+/* Seccion 3 */
+
+.section3{
+    height: 100vh;
+    background-image: url(../img/tulio.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 50% 100%;
+    width: 100%;
+}
+
+
+
+/* Menu desplegable */
+h5 {
+    font-size: 18px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+}
+
+.part1-text3 {
+    padding-left: 55%;
+    padding-top: 5%;
+}
+
+.part2-cont2 {
+    padding-left: 55%;
+    padding-right: 10%;
+}
+
+.prepara-list {
+    list-style: none;
+    padding: 1em;
+}
+
+.item-list span{
+    margin-right: 15px;
+}
+
+.prepara-list li .item-list{
+    align-items: center;
+    display: flex;
+    padding: 1em 1em;
+    cursor: pointer;
+}
+
+.prepara-list li h5 {
+    flex-grow: 2;
+}
+
+.prepara-list li p {
+    display: none;
+    padding: 1em 3em;
+    transition: all ease-in-out .3s;
+
+}
+
+.prepara-list li:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.prepara-list li:hover p {
+    display: block;
+    padding: 1em 3em;
+  }
+
+/* Seccion 4 */
+.section4 {
+    height: 100vh;
+    background-image: url(../img/bodoque.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 50% 100%;
+}
+
+.part1-text4 {
+    padding-left: 90px;
+    padding-top: 4%;
+}
+
+.cont-contact {
+    width: 450px;
+    margin-left: 90px;
+    margin-top: 50px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cont-contact div {
+    position: relative;
+    width: 190px;
+    height: 150px;
+    margin: 7px;
+    padding: 15px 0;
+    border: 1px solid rgba(0, 0, 139, 0.014);
+    text-align: center;
+    border-radius: 5px;    
+    box-shadow: 2px 2px 7px rgba(0, 0, 139, 0.027);
+}
+
+.cont-contact span {
+    position: absolute;
+    margin-left: -70px
+}
+
+
+.cont-contact h4 {
+    position: absolute;
+    padding: 10px;
+    padding-top: 5px;
+    margin-left: 62px;
+    margin-right: 0px;
+    margin-top: 0px;
+    font-size: medium;
+}
+
+.cont-contact p {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: small;
+    padding: 0px;
+}
+
+.cont-contact button {
+    display: block;
+    margin-top: 70px;
+    background: rgba(0, 0, 255, 0.041);
+    color: #1F3E72;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.cont-contact button:hover {
+    background-color:#2C4CCA;
+    color: white;
+    cursor: pointer;
+}
+
+/* Footer */
+
+.space {
+    height: 25vh;
+    display: flex;
+    width: 90vw;
+}
+
+footer{
+    width: 90%;
+    height: 40%;
+    background-color: #E4E9F2;
+}
+
+.footer-cont{
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-between;
+}
+
+footer .part1-footer {
+    width: 100%;
+    margin-left: 90px;
+    padding-top: 45px
+
+}
+
+.part1-footer .text {
+    font-size: medium;
+}
+
+.text-logo {
+    font-size: x-large;
+    font-weight: bold;
+    color: #2C4CCA;
+}
+
+.part2-footer{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.footer-item a{
+    text-decoration:none;
+    transition: all ease-in-out .2s;
+    color: #8b8887;
+
+
+}
+
+.part2-footer td a:hover{
+    color: #1F3E72;
+}
+
+table {
+    border-spacing: 60px 20px;
+    text-align: left;
+}
+
+table .footer-title {
+    font-size: larger;
+    font-weight: 650;
+}
+
+.footer-botton {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 90px;
+    justify-content: space-between;
+    width: 86%;
+    color: #8b8887;
+}
+
+
+.links {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a{
+    text-decoration:none;
+    transition: all ease-in-out .2s;
+    color: #8b8887;
+}
+
+.part2-footer td a:hover{
+    color: #1F3E72;
+}
+

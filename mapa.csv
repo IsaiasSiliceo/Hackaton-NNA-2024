@@ -1,0 +1,545 @@
+,Año,Entidad,Población,Cantidad,Totales,Porcentaje,cve_agee
+0,2020,Aguascalientes,No disponen de energía eléctrica,1210.0,386011.0,0.003134626,01
+1,2020,Baja California,No disponen de energía eléctrica,8947.0,1144251.0,0.007819089,02
+2,2020,Baja California Sur,No disponen de energía eléctrica,2826.0,239358.0,0.011806583,03
+3,2020,Campeche,No disponen de energía eléctrica,3516.0,260221.0,0.013511592,04
+4,2020,Coahuila,No disponen de energía eléctrica,2396.0,900275.0,0.002661409,05
+5,2020,Colima,No disponen de energía eléctrica,1121.0,226445.0,0.004950429,06
+6,2020,Chiapas,No disponen de energía eléctrica,23972.0,1348105.0,0.017781998,07
+7,2020,Chihuahua,No disponen de energía eléctrica,17090.0,1145185.0,0.014923353,08
+8,2020,Ciudad De México,No disponen de energía eléctrica,1917.0,2752169.0,0.000696542,09
+9,2020,Durango,No disponen de energía eléctrica,8921.0,493142.0,0.018090124,10
+10,2020,Guanajuato,No disponen de energía eléctrica,7532.0,1584834.0,0.004752548,11
+11,2020,Guerrero,No disponen de energía eléctrica,14873.0,939989.0,0.015822526,12
+12,2020,Hidalgo,No disponen de energía eléctrica,7630.0,855830.0,0.008915322,13
+13,2020,Jalisco,No disponen de energía eléctrica,7728.0,2327794.0,0.003319881,14
+14,2020,México,No disponen de energía eléctrica,14765.0,4561381.0,0.003236958,15
+15,2020,Michoacán,No disponen de energía eléctrica,7663.0,1282371.0,0.00597565,16
+16,2020,Morelos,No disponen de energía eléctrica,2394.0,559102.0,0.004281866,17
+17,2020,Nayarit,No disponen de energía eléctrica,6147.0,360079.0,0.017071254,18
+18,2020,Nuevo León,No disponen de energía eléctrica,2849.0,1654199.0,0.001722284,19
+19,2020,Oaxaca,No disponen de energía eléctrica,25242.0,1121846.0,0.022500414,20
+20,2020,Puebla,No disponen de energía eléctrica,13075.0,1710331.0,0.007644719,21
+21,2020,Querétaro,No disponen de energía eléctrica,3686.0,667596.0,0.005521303,22
+22,2020,Quintana Roo,No disponen de energía eléctrica,5335.0,574124.0,0.009292418,23
+23,2020,San Luis Potosí,No disponen de energía eléctrica,11142.0,773425.0,0.014406051,24
+24,2020,Sinaloa,No disponen de energía eléctrica,4733.0,853421.0,0.005545915,25
+25,2020,Sonora,No disponen de energía eléctrica,8484.0,874341.0,0.009703308,26
+26,2020,Tabasco,No disponen de energía eléctrica,4474.0,668486.0,0.006692736,27
+27,2020,Tamaulipas,No disponen de energía eléctrica,6780.0,1067197.0,0.006353091,28
+28,2020,Tlaxcala,No disponen de energía eléctrica,1859.0,340954.0,0.005452348,29
+29,2020,Veracruz,No disponen de energía eléctrica,32038.0,2385265.0,0.013431631,30
+30,2020,Yucatán,No disponen de energía eléctrica,5961.0,656907.0,0.009074344,31
+31,2020,Zacatecas,No disponen de energía eléctrica,2557.0,442263.0,0.005781628,32
+32,2020,Aguascalientes,No disponen de agua entubada,2137.0,386011.0,0.005536112,01
+33,2020,Baja California,No disponen de agua entubada,23823.0,1144251.0,0.020819733,02
+34,2020,Baja California Sur,No disponen de agua entubada,11973.0,239358.0,0.050021307,03
+35,2020,Campeche,No disponen de agua entubada,10343.0,260221.0,0.039746984,04
+36,2020,Coahuila,No disponen de agua entubada,8789.0,900275.0,0.009762573,05
+37,2020,Colima,No disponen de agua entubada,1634.0,226445.0,0.00721588,06
+38,2020,Chiapas,No disponen de agua entubada,133616.0,1348105.0,0.099113941,07
+39,2020,Chihuahua,No disponen de agua entubada,17437.0,1145185.0,0.015226361,08
+40,2020,Ciudad De México,No disponen de agua entubada,29004.0,2752169.0,0.010538597,09
+41,2020,Durango,No disponen de agua entubada,9676.0,493142.0,0.019621123,10
+42,2020,Guanajuato,No disponen de agua entubada,42957.0,1584834.0,0.027105047,11
+43,2020,Guerrero,No disponen de agua entubada,103991.0,939989.0,0.110630018,12
+44,2020,Hidalgo,No disponen de agua entubada,33315.0,855830.0,0.038927123,13
+45,2020,Jalisco,No disponen de agua entubada,16375.0,2327794.0,0.007034557,14
+46,2020,México,No disponen de agua entubada,118409.0,4561381.0,0.025959024,15
+47,2020,Michoacán,No disponen de agua entubada,34767.0,1282371.0,0.027111499,16
+48,2020,Morelos,No disponen de agua entubada,22616.0,559102.0,0.04045058,17
+49,2020,Nayarit,No disponen de agua entubada,9339.0,360079.0,0.025935975,18
+50,2020,Nuevo León,No disponen de agua entubada,12098.0,1654199.0,0.007313509,19
+51,2020,Oaxaca,No disponen de agua entubada,110050.0,1121846.0,0.098097243,20
+52,2020,Puebla,No disponen de agua entubada,76093.0,1710331.0,0.044490219,21
+53,2020,Querétaro,No disponen de agua entubada,13717.0,667596.0,0.020546858,22
+54,2020,Quintana Roo,No disponen de agua entubada,9234.0,574124.0,0.016083634,23
+55,2020,San Luis Potosí,No disponen de agua entubada,57307.0,773425.0,0.074095096,24
+56,2020,Sinaloa,No disponen de agua entubada,12998.0,853421.0,0.015230467,25
+57,2020,Sonora,No disponen de agua entubada,12370.0,874341.0,0.014147798,26
+58,2020,Tabasco,No disponen de agua entubada,41215.0,668486.0,0.061654246,27
+59,2020,Tamaulipas,No disponen de agua entubada,18631.0,1067197.0,0.017457883,28
+60,2020,Tlaxcala,No disponen de agua entubada,3332.0,340954.0,0.009772579,29
+61,2020,Veracruz,No disponen de agua entubada,202241.0,2385265.0,0.084787644,30
+62,2020,Yucatán,No disponen de agua entubada,7800.0,656907.0,0.011873827,31
+63,2020,Zacatecas,No disponen de agua entubada,8210.0,442263.0,0.018563615,32
+64,2020,Aguascalientes,No disponen de drenaje,2379.0,386011.0,0.006163037,01
+65,2020,Baja California,No disponen de drenaje,39745.0,1144251.0,0.034734512,02
+66,2020,Baja California Sur,No disponen de drenaje,6170.0,239358.0,0.025777288,03
+67,2020,Campeche,No disponen de drenaje,13279.0,260221.0,0.051029702,04
+68,2020,Coahuila,No disponen de drenaje,11235.0,900275.0,0.01247952,05
+69,2020,Colima,No disponen de drenaje,1039.0,226445.0,0.004588311,06
+70,2020,Chiapas,No disponen de drenaje,114526.0,1348105.0,0.084953323,07
+71,2020,Chihuahua,No disponen de drenaje,37136.0,1145185.0,0.032427948,08
+72,2020,Ciudad De México,No disponen de drenaje,4207.0,2752169.0,0.001528613,09
+73,2020,Durango,No disponen de drenaje,24896.0,493142.0,0.050484445,10
+74,2020,Guanajuato,No disponen de drenaje,48923.0,1584834.0,0.030869479,11
+75,2020,Guerrero,No disponen de drenaje,111043.0,939989.0,0.118132233,12
+76,2020,Hidalgo,No disponen de drenaje,42803.0,855830.0,0.050013437,13
+77,2020,Jalisco,No disponen de drenaje,17165.0,2327794.0,0.007373934,14
+78,2020,México,No disponen de drenaje,112246.0,4561381.0,0.024607898,15
+79,2020,Michoacán,No disponen de drenaje,53793.0,1282371.0,0.041948079,16
+80,2020,Morelos,No disponen de drenaje,10094.0,559102.0,0.018053951,17
+81,2020,Nayarit,No disponen de drenaje,13432.0,360079.0,0.037302925,18
+82,2020,Nuevo León,No disponen de drenaje,14630.0,1654199.0,0.00884416,19
+83,2020,Oaxaca,No disponen de drenaje,217520.0,1121846.0,0.193894706,20
+84,2020,Puebla,No disponen de drenaje,82485.0,1710331.0,0.048227507,21
+85,2020,Querétaro,No disponen de drenaje,17011.0,667596.0,0.02548098,22
+86,2020,Quintana Roo,No disponen de drenaje,10860.0,574124.0,0.018915774,23
+87,2020,San Luis Potosí,No disponen de drenaje,70188.0,773425.0,0.090749588,24
+88,2020,Sinaloa,No disponen de drenaje,25556.0,853421.0,0.029945361,25
+89,2020,Sonora,No disponen de drenaje,40872.0,874341.0,0.046746064,26
+90,2020,Tabasco,No disponen de drenaje,16173.0,668486.0,0.024193476,27
+91,2020,Tamaulipas,No disponen de drenaje,54247.0,1067197.0,0.05083129,28
+92,2020,Tlaxcala,No disponen de drenaje,6476.0,340954.0,0.018993765,29
+93,2020,Veracruz,No disponen de drenaje,212657.0,2385265.0,0.089154455,30
+94,2020,Yucatán,No disponen de drenaje,50040.0,656907.0,0.076175166,31
+95,2020,Zacatecas,No disponen de drenaje,15940.0,442263.0,0.036041903,32
+96,2020,Aguascalientes,No disponen de Internet,149536.0,386011.0,0.387387924,01
+97,2020,Baja California,No disponen de Internet,340961.0,1144251.0,0.297977454,02
+98,2020,Baja California Sur,No disponen de Internet,89322.0,239358.0,0.373173238,03
+99,2020,Campeche,No disponen de Internet,144908.0,260221.0,0.556865126,04
+100,2020,Coahuila,No disponen de Internet,378514.0,900275.0,0.420442643,05
+101,2020,Colima,No disponen de Internet,93313.0,226445.0,0.412077988,06
+102,2020,Chiapas,No disponen de Internet,1049093.0,1348105.0,0.778198286,07
+103,2020,Chihuahua,No disponen de Internet,491868.0,1145185.0,0.429509643,08
+104,2020,Ciudad De México,No disponen de Internet,664131.0,2752169.0,0.241311853,09
+105,2020,Durango,No disponen de Internet,276918.0,493142.0,0.561538056,10
+106,2020,Guanajuato,No disponen de Internet,816514.0,1584834.0,0.515204747,11
+107,2020,Guerrero,No disponen de Internet,637474.0,939989.0,0.678171766,12
+108,2020,Hidalgo,No disponen de Internet,522412.0,855830.0,0.61041562,13
+109,2020,Jalisco,No disponen de Internet,875027.0,2327794.0,0.375903967,14
+110,2020,México,No disponen de Internet,1994609.0,4561381.0,0.437281823,15
+111,2020,Michoacán,No disponen de Internet,719186.0,1282371.0,0.560825221,16
+112,2020,Morelos,No disponen de Internet,250913.0,559102.0,0.448778577,17
+113,2020,Nayarit,No disponen de Internet,190320.0,360079.0,0.528550679,18
+114,2020,Nuevo León,No disponen de Internet,497059.0,1654199.0,0.300483195,19
+115,2020,Oaxaca,No disponen de Internet,789029.0,1121846.0,0.703330938,20
+116,2020,Puebla,No disponen de Internet,1016947.0,1710331.0,0.594590755,21
+117,2020,Querétaro,No disponen de Internet,235468.0,667596.0,0.352710322,22
+118,2020,Quintana Roo,No disponen de Internet,247955.0,574124.0,0.431884053,23
+119,2020,San Luis Potosí,No disponen de Internet,428102.0,773425.0,0.553514562,24
+120,2020,Sinaloa,No disponen de Internet,411497.0,853421.0,0.482173511,25
+121,2020,Sonora,No disponen de Internet,342652.0,874341.0,0.39189744,26
+122,2020,Tabasco,No disponen de Internet,439565.0,668486.0,0.657553038,27
+123,2020,Tamaulipas,No disponen de Internet,484974.0,1067197.0,0.454437185,28
+124,2020,Tlaxcala,No disponen de Internet,203867.0,340954.0,0.597931099,29
+125,2020,Veracruz,No disponen de Internet,1424232.0,2385265.0,0.59709592,30
+126,2020,Yucatán,No disponen de Internet,316521.0,656907.0,0.481835328,31
+127,2020,Zacatecas,No disponen de Internet,236730.0,442263.0,0.535269738,32
+128,2020,Aguascalientes,No disponen de computadora,208384.0,386011.0,0.539839538,01
+129,2020,Baja California,No disponen de computadora,564688.0,1144251.0,0.493500115,02
+130,2020,Baja California Sur,No disponen de computadora,129106.0,239358.0,0.53938452,03
+131,2020,Campeche,No disponen de computadora,171156.0,260221.0,0.657733234,04
+132,2020,Coahuila,No disponen de computadora,530109.0,900275.0,0.58883008,05
+133,2020,Colima,No disponen de computadora,135507.0,226445.0,0.59841021,06
+134,2020,Chiapas,No disponen de computadora,1128305.0,1348105.0,0.83695632,07
+135,2020,Chihuahua,No disponen de computadora,653665.0,1145185.0,0.570794238,08
+136,2020,Ciudad De México,No disponen de computadora,1098867.0,2752169.0,0.399273082,09
+137,2020,Durango,No disponen de computadora,322263.0,493142.0,0.653489259,10
+138,2020,Guanajuato,No disponen de computadora,1030880.0,1584834.0,0.650465601,11
+139,2020,Guerrero,No disponen de computadora,744311.0,939989.0,0.791829479,12
+140,2020,Hidalgo,No disponen de computadora,593644.0,855830.0,0.693647103,13
+141,2020,Jalisco,No disponen de computadora,1277469.0,2327794.0,0.548789541,14
+142,2020,México,No disponen de computadora,2704479.0,4561381.0,0.592907937,15
+143,2020,Michoacán,No disponen de computadora,906741.0,1282371.0,0.707081648,16
+144,2020,Morelos,No disponen de computadora,353884.0,559102.0,0.632950696,17
+145,2020,Nayarit,No disponen de computadora,233893.0,360079.0,0.649560235,18
+146,2020,Nuevo León,No disponen de computadora,856496.0,1654199.0,0.517770837,19
+147,2020,Oaxaca,No disponen de computadora,889896.0,1121846.0,0.793242566,20
+148,2020,Puebla,No disponen de computadora,1202686.0,1710331.0,0.703189032,21
+149,2020,Querétaro,No disponen de computadora,345269.0,667596.0,0.517182548,22
+150,2020,Quintana Roo,No disponen de computadora,353291.0,574124.0,0.615356613,23
+151,2020,San Luis Potosí,No disponen de computadora,509334.0,773425.0,0.658543492,24
+152,2020,Sinaloa,No disponen de computadora,525890.0,853421.0,0.616214037,25
+153,2020,Sonora,No disponen de computadora,492212.0,874341.0,0.562951983,26
+154,2020,Tabasco,No disponen de computadora,498645.0,668486.0,0.745931852,27
+155,2020,Tamaulipas,No disponen de computadora,684238.0,1067197.0,0.641154351,28
+156,2020,Tlaxcala,No disponen de computadora,239210.0,340954.0,0.701590244,29
+157,2020,Veracruz,No disponen de computadora,1765959.0,2385265.0,0.740361763,30
+158,2020,Yucatán,No disponen de computadora,409212.0,656907.0,0.622937493,31
+159,2020,Zacatecas,No disponen de computadora,302291.0,442263.0,0.683509586,32
+160,2020,Aguascalientes,No disponen de televisor,15135.0,386011.0,0.039208727,01
+161,2020,Baja California,No disponen de televisor,69860.0,1144251.0,0.061053038,02
+162,2020,Baja California Sur,No disponen de televisor,23755.0,239358.0,0.099244646,03
+163,2020,Campeche,No disponen de televisor,32793.0,260221.0,0.126019806,04
+164,2020,Coahuila,No disponen de televisor,34643.0,900275.0,0.038480464,05
+165,2020,Colima,No disponen de televisor,18881.0,226445.0,0.08338007,06
+166,2020,Chiapas,No disponen de televisor,304608.0,1348105.0,0.225952726,07
+167,2020,Chihuahua,No disponen de televisor,73946.0,1145185.0,0.064571226,08
+168,2020,Ciudad De México,No disponen de televisor,100501.0,2752169.0,0.036517016,09
+169,2020,Durango,No disponen de televisor,34371.0,493142.0,0.069697977,10
+170,2020,Guanajuato,No disponen de televisor,83619.0,1584834.0,0.052761993,11
+171,2020,Guerrero,No disponen de televisor,175921.0,939989.0,0.18715219,12
+172,2020,Hidalgo,No disponen de televisor,95322.0,855830.0,0.111379596,13
+173,2020,Jalisco,No disponen de televisor,110708.0,2327794.0,0.047559191,14
+174,2020,México,No disponen de televisor,248309.0,4561381.0,0.054437242,15
+175,2020,Michoacán,No disponen de televisor,101798.0,1282371.0,0.079382644,16
+176,2020,Morelos,No disponen de televisor,48923.0,559102.0,0.087502817,17
+177,2020,Nayarit,No disponen de televisor,35344.0,360079.0,0.098156238,18
+178,2020,Nuevo León,No disponen de televisor,69796.0,1654199.0,0.042193231,19
+179,2020,Oaxaca,No disponen de televisor,295902.0,1121846.0,0.263763476,20
+180,2020,Puebla,No disponen de televisor,191717.0,1710331.0,0.112093507,21
+181,2020,Querétaro,No disponen de televisor,42587.0,667596.0,0.063791575,22
+182,2020,Quintana Roo,No disponen de televisor,72027.0,574124.0,0.125455477,23
+183,2020,San Luis Potosí,No disponen de televisor,77651.0,773425.0,0.100398875,24
+184,2020,Sinaloa,No disponen de televisor,57173.0,853421.0,0.066992727,25
+185,2020,Sonora,No disponen de televisor,59443.0,874341.0,0.06798606,26
+186,2020,Tabasco,No disponen de televisor,82425.0,668486.0,0.123301012,27
+187,2020,Tamaulipas,No disponen de televisor,69393.0,1067197.0,0.065023609,28
+188,2020,Tlaxcala,No disponen de televisor,23676.0,340954.0,0.069440452,29
+189,2020,Veracruz,No disponen de televisor,305455.0,2385265.0,0.128059146,30
+190,2020,Yucatán,No disponen de televisor,56417.0,656907.0,0.085882781,31
+191,2020,Zacatecas,No disponen de televisor,25498.0,442263.0,0.057653478,32
+192,2010,Aguascalientes,No disponen de energía eléctrica,1923.0,289444.0,0.006643772,01
+193,2010,Baja California,No disponen de energía eléctrica,9463.0,853254.0,0.011090484,02
+194,2010,Baja California Sur,No disponen de energía eléctrica,5408.0,174441.0,0.031001886,03
+195,2010,Campeche,No disponen de energía eléctrica,6475.0,211555.0,0.030606698,04
+196,2010,Coahuila,No disponen de energía eléctrica,5064.0,714967.0,0.007082844,05
+197,2010,Colima,No disponen de energía eléctrica,1380.0,177672.0,0.007767121,06
+198,2010,Chiapas,No disponen de energía eléctrica,39479.0,1072239.0,0.036819217,07
+199,2010,Chihuahua,No disponen de energía eléctrica,29898.0,910198.0,0.032847798,08
+200,2010,Ciudad De México,No disponen de energía eléctrica,2256.0,2386605.0,0.000945276,09
+201,2010,Durango,No disponen de energía eléctrica,14222.0,398342.0,0.035702989,10
+202,2010,Guanajuato,No disponen de energía eléctrica,19954.0,1266235.0,0.015758528,11
+203,2010,Guerrero,No disponen de energía eléctrica,33656.0,804801.0,0.041819034,12
+204,2010,Hidalgo,No disponen de energía eléctrica,18996.0,662341.0,0.028680091,13
+205,2010,Jalisco,No disponen de energía eléctrica,14871.0,1801306.0,0.008255677,14
+206,2010,México,No disponen de energía eléctrica,30053.0,3687193.0,0.008150645,15
+207,2010,Michoacán,No disponen de energía eléctrica,18648.0,1066061.0,0.017492432,16
+208,2010,Morelos,No disponen de energía eléctrica,4462.0,460370.0,0.009692204,17
+209,2010,Nayarit,No disponen de energía eléctrica,8783.0,288522.0,0.030441353,18
+210,2010,Nuevo León,No disponen de energía eléctrica,4689.0,1190804.0,0.003937676,19
+211,2010,Oaxaca,No disponen de energía eléctrica,48857.0,934055.0,0.052306342,20
+212,2010,Puebla,No disponen de energía eléctrica,25569.0,1373171.0,0.018620405,21
+213,2010,Querétaro,No disponen de energía eléctrica,9275.0,449923.0,0.020614639,22
+214,2010,Quintana Roo,No disponen de energía eléctrica,7441.0,362762.0,0.020512071,23
+215,2010,San Luis Potosí,No disponen de energía eléctrica,26059.0,631336.0,0.041275961,24
+216,2010,Sinaloa,No disponen de energía eléctrica,8696.0,709748.0,0.012252236,25
+217,2010,Sonora,No disponen de energía eléctrica,13352.0,703956.0,0.018967095,26
+218,2010,Tabasco,No disponen de energía eléctrica,7651.0,558882.0,0.013689831,27
+219,2010,Tamaulipas,No disponen de energía eléctrica,15393.0,867935.0,0.017735199,28
+220,2010,Tlaxcala,No disponen de energía eléctrica,3278.0,272365.0,0.01203532,29
+221,2010,Veracruz,No disponen de energía eléctrica,62388.0,1982612.0,0.031467579,30
+222,2010,Yucatán,No disponen de energía eléctrica,10155.0,502948.0,0.020190954,31
+223,2010,Zacatecas,No disponen de energía eléctrica,5688.0,372513.0,0.015269266,32
+224,2010,Aguascalientes,No disponen de agua entubada,2655.0,289444.0,0.009172759,01
+225,2010,Baja California,No disponen de agua entubada,28987.0,853254.0,0.033972299,02
+226,2010,Baja California Sur,No disponen de agua entubada,12409.0,174441.0,0.071135799,03
+227,2010,Campeche,No disponen de agua entubada,19847.0,211555.0,0.093814847,04
+228,2010,Coahuila,No disponen de agua entubada,10422.0,714967.0,0.014576897,05
+229,2010,Colima,No disponen de agua entubada,2139.0,177672.0,0.012039038,06
+230,2010,Chiapas,No disponen de agua entubada,229595.0,1072239.0,0.214126701,07
+231,2010,Chihuahua,No disponen de agua entubada,38697.0,910198.0,0.042514925,08
+232,2010,Ciudad De México,No disponen de agua entubada,37316.0,2386605.0,0.0156356,09
+233,2010,Durango,No disponen de agua entubada,19407.0,398342.0,0.048719442,10
+234,2010,Guanajuato,No disponen de agua entubada,63018.0,1266235.0,0.049768013,11
+235,2010,Guerrero,No disponen de agua entubada,226471.0,804801.0,0.281399998,12
+236,2010,Hidalgo,No disponen de agua entubada,56486.0,662341.0,0.085282355,13
+237,2010,Jalisco,No disponen de agua entubada,64254.0,1801306.0,0.035670786,14
+238,2010,México,No disponen de agua entubada,189257.0,3687193.0,0.051328205,15
+239,2010,Michoacán,No disponen de agua entubada,80379.0,1066061.0,0.075398124,16
+240,2010,Morelos,No disponen de agua entubada,35867.0,460370.0,0.077909073,17
+241,2010,Nayarit,No disponen de agua entubada,19604.0,288522.0,0.067946292,18
+242,2010,Nuevo León,No disponen de agua entubada,26962.0,1190804.0,0.022641845,19
+243,2010,Oaxaca,No disponen de agua entubada,209241.0,934055.0,0.224013575,20
+244,2010,Puebla,No disponen de agua entubada,157534.0,1373171.0,0.114722784,21
+245,2010,Querétaro,No disponen de agua entubada,20831.0,449923.0,0.046299033,22
+246,2010,Quintana Roo,No disponen de agua entubada,20761.0,362762.0,0.05723036,23
+247,2010,San Luis Potosí,No disponen de agua entubada,83471.0,631336.0,0.132213275,24
+248,2010,Sinaloa,No disponen de agua entubada,31589.0,709748.0,0.044507346,25
+249,2010,Sonora,No disponen de agua entubada,22128.0,703956.0,0.031433783,26
+250,2010,Tabasco,No disponen de agua entubada,97279.0,558882.0,0.174059998,27
+251,2010,Tamaulipas,No disponen de agua entubada,25370.0,867935.0,0.0292303,28
+252,2010,Tlaxcala,No disponen de agua entubada,4113.0,272365.0,0.015101059,29
+253,2010,Veracruz,No disponen de agua entubada,369320.0,1982612.0,0.186279514,30
+254,2010,Yucatán,No disponen de agua entubada,11388.0,502948.0,0.0226425,31
+255,2010,Zacatecas,No disponen de agua entubada,19670.0,372513.0,0.052803526,32
+256,2010,Aguascalientes,No disponen de drenaje,4795.0,289444.0,0.016566244,01
+257,2010,Baja California,No disponen de drenaje,49537.0,853254.0,0.058056569,02
+258,2010,Baja California Sur,No disponen de drenaje,9805.0,174441.0,0.056208116,03
+259,2010,Campeche,No disponen de drenaje,29590.0,211555.0,0.139869065,04
+260,2010,Coahuila,No disponen de drenaje,30859.0,714967.0,0.043161433,05
+261,2010,Colima,No disponen de drenaje,1882.0,177672.0,0.010592553,06
+262,2010,Chiapas,No disponen de drenaje,171335.0,1072239.0,0.1597918,07
+263,2010,Chihuahua,No disponen de drenaje,58834.0,910198.0,0.064638683,08
+264,2010,Ciudad De México,No disponen de drenaje,7178.0,2386605.0,0.00300762,09
+265,2010,Durango,No disponen de drenaje,42518.0,398342.0,0.106737427,10
+266,2010,Guanajuato,No disponen de drenaje,113875.0,1266235.0,0.089931964,11
+267,2010,Guerrero,No disponen de drenaje,181550.0,804801.0,0.225583716,12
+268,2010,Hidalgo,No disponen de drenaje,93365.0,662341.0,0.140962133,13
+269,2010,Jalisco,No disponen de drenaje,37139.0,1801306.0,0.020617818,14
+270,2010,México,No disponen de drenaje,194169.0,3687193.0,0.052660384,15
+271,2010,Michoacán,No disponen de drenaje,114794.0,1066061.0,0.107680517,16
+272,2010,Morelos,No disponen de drenaje,20402.0,460370.0,0.044316528,17
+273,2010,Nayarit,No disponen de drenaje,16229.0,288522.0,0.056248744,18
+274,2010,Nuevo León,No disponen de drenaje,31424.0,1190804.0,0.026388894,19
+275,2010,Oaxaca,No disponen de drenaje,264922.0,934055.0,0.283625697,20
+276,2010,Puebla,No disponen de drenaje,169104.0,1373171.0,0.123148537,21
+277,2010,Querétaro,No disponen de drenaje,37880.0,449923.0,0.084192184,22
+278,2010,Quintana Roo,No disponen de drenaje,17693.0,362762.0,0.048773025,23
+279,2010,San Luis Potosí,No disponen de drenaje,117798.0,631336.0,0.186585273,24
+280,2010,Sinaloa,No disponen de drenaje,55531.0,709748.0,0.078240446,25
+281,2010,Sonora,No disponen de drenaje,68127.0,703956.0,0.096777355,26
+282,2010,Tabasco,No disponen de drenaje,23399.0,558882.0,0.041867514,27
+283,2010,Tamaulipas,No disponen de drenaje,100043.0,867935.0,0.115265544,28
+284,2010,Tlaxcala,No disponen de drenaje,14618.0,272365.0,0.053670626,29
+285,2010,Veracruz,No disponen de drenaje,309863.0,1982612.0,0.156290288,30
+286,2010,Yucatán,No disponen de drenaje,97945.0,502948.0,0.194741802,31
+287,2010,Zacatecas,No disponen de drenaje,37618.0,372513.0,0.100984395,32
+288,2010,Aguascalientes,No disponen de Internet,222504.0,289444.0,0.768729011,01
+289,2010,Baja California,No disponen de Internet,541495.0,853254.0,0.634623453,02
+290,2010,Baja California Sur,No disponen de Internet,115525.0,174441.0,0.662258299,03
+291,2010,Campeche,No disponen de Internet,170931.0,211555.0,0.807974286,04
+292,2010,Coahuila,No disponen de Internet,544290.0,714967.0,0.761279891,05
+293,2010,Colima,No disponen de Internet,133168.0,177672.0,0.749515962,06
+294,2010,Chiapas,No disponen de Internet,987681.0,1072239.0,0.921138851,07
+295,2010,Chihuahua,No disponen de Internet,677753.0,910198.0,0.7446215,08
+296,2010,Ciudad De México,No disponen de Internet,1430033.0,2386605.0,0.59919132,09
+297,2010,Durango,No disponen de Internet,327290.0,398342.0,0.821630659,10
+298,2010,Guanajuato,No disponen de Internet,1057928.0,1266235.0,0.835491042,11
+299,2010,Guerrero,No disponen de Internet,711165.0,804801.0,0.883653226,12
+300,2010,Hidalgo,No disponen de Internet,583115.0,662341.0,0.880384877,13
+301,2010,Jalisco,No disponen de Internet,1300768.0,1801306.0,0.722124947,14
+302,2010,México,No disponen de Internet,2852993.0,3687193.0,0.773757436,15
+303,2010,Michoacán,No disponen de Internet,918182.0,1066061.0,0.861284673,16
+304,2010,Morelos,No disponen de Internet,350876.0,460370.0,0.762160871,17
+305,2010,Nayarit,No disponen de Internet,232338.0,288522.0,0.805269615,18
+306,2010,Nuevo León,No disponen de Internet,787497.0,1190804.0,0.66131538,19
+307,2010,Oaxaca,No disponen de Internet,855264.0,934055.0,0.915646295,20
+308,2010,Puebla,No disponen de Internet,1163401.0,1373171.0,0.847236797,21
+309,2010,Querétaro,No disponen de Internet,337049.0,449923.0,0.749125962,22
+310,2010,Quintana Roo,No disponen de Internet,266487.0,362762.0,0.734605609,23
+311,2010,San Luis Potosí,No disponen de Internet,524499.0,631336.0,0.830776322,24
+312,2010,Sinaloa,No disponen de Internet,534116.0,709748.0,0.752543156,25
+313,2010,Sonora,No disponen de Internet,495843.0,703956.0,0.704366466,26
+314,2010,Tabasco,No disponen de Internet,485674.0,558882.0,0.869009916,27
+315,2010,Tamaulipas,No disponen de Internet,646307.0,867935.0,0.744649081,28
+316,2010,Tlaxcala,No disponen de Internet,238558.0,272365.0,0.875876122,29
+317,2010,Veracruz,No disponen de Internet,1683514.0,1982612.0,0.849139418,30
+318,2010,Yucatán,No disponen de Internet,406258.0,502948.0,0.807753485,31
+319,2010,Zacatecas,No disponen de Internet,321282.0,372513.0,0.862471914,32
+320,2010,Aguascalientes,No disponen de computadora,189114.0,289444.0,0.653369909,01
+321,2010,Baja California,No disponen de computadora,469703.0,853254.0,0.550484381,02
+322,2010,Baja California Sur,No disponen de computadora,101176.0,174441.0,0.580001261,03
+323,2010,Campeche,No disponen de computadora,155340.0,211555.0,0.734277138,04
+324,2010,Coahuila,No disponen de computadora,480161.0,714967.0,0.671584842,05
+325,2010,Colima,No disponen de computadora,118052.0,177672.0,0.664437841,06
+326,2010,Chiapas,No disponen de computadora,930149.0,1072239.0,0.867482903,07
+327,2010,Chihuahua,No disponen de computadora,589449.0,910198.0,0.647605246,08
+328,2010,Ciudad De México,No disponen de computadora,1197349.0,2386605.0,0.501695505,09
+329,2010,Durango,No disponen de computadora,290586.0,398342.0,0.729488731,10
+330,2010,Guanajuato,No disponen de computadora,958750.0,1266235.0,0.757165929,11
+331,2010,Guerrero,No disponen de computadora,669462.0,804801.0,0.831835448,12
+332,2010,Hidalgo,No disponen de computadora,524917.0,662341.0,0.792517751,13
+333,2010,Jalisco,No disponen de computadora,1137671.0,1801306.0,0.631581197,14
+334,2010,México,No disponen de computadora,2505064.0,3687193.0,0.679395952,15
+335,2010,Michoacán,No disponen de computadora,837915.0,1066061.0,0.785991608,16
+336,2010,Morelos,No disponen de computadora,320781.0,460370.0,0.696789539,17
+337,2010,Nayarit,No disponen de computadora,208914.0,288522.0,0.724083432,18
+338,2010,Nuevo León,No disponen de computadora,699104.0,1190804.0,0.5870857,19
+339,2010,Oaxaca,No disponen de computadora,794064.0,934055.0,0.850125528,20
+340,2010,Puebla,No disponen de computadora,1076650.0,1373171.0,0.784061126,21
+341,2010,Querétaro,No disponen de computadora,293746.0,449923.0,0.652880604,22
+342,2010,Quintana Roo,No disponen de computadora,239115.0,362762.0,0.659151179,23
+343,2010,San Luis Potosí,No disponen de computadora,477242.0,631336.0,0.755923945,24
+344,2010,Sinaloa,No disponen de computadora,482149.0,709748.0,0.679324211,25
+345,2010,Sonora,No disponen de computadora,433481.0,703956.0,0.615778543,26
+346,2010,Tabasco,No disponen de computadora,438121.0,558882.0,0.783923977,27
+347,2010,Tamaulipas,No disponen de computadora,594124.0,867935.0,0.684525915,28
+348,2010,Tlaxcala,No disponen de computadora,217450.0,272365.0,0.798377178,29
+349,2010,Veracruz,No disponen de computadora,1567316.0,1982612.0,0.790530875,30
+350,2010,Yucatán,No disponen de computadora,368527.0,502948.0,0.732733802,31
+351,2010,Zacatecas,No disponen de computadora,285710.0,372513.0,0.766979944,32
+352,2010,Aguascalientes,No disponen de televisor,6525.0,289444.0,0.022543221,01
+353,2010,Baja California,No disponen de televisor,19908.0,853254.0,0.023331857,02
+354,2010,Baja California Sur,No disponen de televisor,8920.0,174441.0,0.051134768,03
+355,2010,Campeche,No disponen de televisor,21805.0,211555.0,0.103070124,04
+356,2010,Coahuila,No disponen de televisor,16643.0,714967.0,0.023277997,05
+357,2010,Colima,No disponen de televisor,7613.0,177672.0,0.04284862,06
+358,2010,Chiapas,No disponen de televisor,244879.0,1072239.0,0.228380986,07
+359,2010,Chihuahua,No disponen de televisor,53647.0,910198.0,0.058939923,08
+360,2010,Ciudad De México,No disponen de televisor,35892.0,2386605.0,0.015038936,09
+361,2010,Durango,No disponen de televisor,25623.0,398342.0,0.064324123,10
+362,2010,Guanajuato,No disponen de televisor,50262.0,1266235.0,0.039694054,11
+363,2010,Guerrero,No disponen de televisor,132771.0,804801.0,0.164973702,12
+364,2010,Hidalgo,No disponen de televisor,77772.0,662341.0,0.117419879,13
+365,2010,Jalisco,No disponen de televisor,48668.0,1801306.0,0.027018175,14
+366,2010,México,No disponen de televisor,135543.0,3687193.0,0.036760484,15
+367,2010,Michoacán,No disponen de televisor,69953.0,1066061.0,0.065618196,16
+368,2010,Morelos,No disponen de televisor,19831.0,460370.0,0.043076221,17
+369,2010,Nayarit,No disponen de televisor,19810.0,288522.0,0.068660275,18
+370,2010,Nuevo León,No disponen de televisor,21079.0,1190804.0,0.017701486,19
+371,2010,Oaxaca,No disponen de televisor,222293.0,934055.0,0.237987056,20
+372,2010,Puebla,No disponen de televisor,140022.0,1373171.0,0.10196982,21
+373,2010,Querétaro,No disponen de televisor,25806.0,449923.0,0.057356481,22
+374,2010,Quintana Roo,No disponen de televisor,28361.0,362762.0,0.078180736,23
+375,2010,San Luis Potosí,No disponen de televisor,73611.0,631336.0,0.1165956,24
+376,2010,Sinaloa,No disponen de televisor,31560.0,709748.0,0.044466487,25
+377,2010,Sonora,No disponen de televisor,28926.0,703956.0,0.041090636,26
+378,2010,Tabasco,No disponen de televisor,52745.0,558882.0,0.094375915,27
+379,2010,Tamaulipas,No disponen de televisor,35649.0,867935.0,0.041073352,28
+380,2010,Tlaxcala,No disponen de televisor,14985.0,272365.0,0.055018082,29
+381,2010,Veracruz,No disponen de televisor,216185.0,1982612.0,0.109040498,30
+382,2010,Yucatán,No disponen de televisor,36741.0,502948.0,0.07305129,31
+383,2010,Zacatecas,No disponen de televisor,18014.0,372513.0,0.048358044,32
+384,2000,Aguascalientes,No disponen de energía eléctrica,3432.0,199398.0,0.017211808,01
+385,2000,Baja California,No disponen de energía eléctrica,13149.0,559402.0,0.023505458,02
+386,2000,Baja California Sur,No disponen de energía eléctrica,5140.0,104341.0,0.049261556,03
+387,2000,Campeche,No disponen de energía eléctrica,13291.0,156125.0,0.085130504,04
+388,2000,Coahuila,No disponen de energía eléctrica,8772.0,539169.0,0.016269481,05
+389,2000,Colima,No disponen de energía eléctrica,2837.0,124714.0,0.022748048,06
+390,2000,Chiapas,No disponen de energía eléctrica,89968.0,778845.0,0.11551464,07
+391,2000,Chihuahua,No disponen de energía eléctrica,41659.0,733379.0,0.05680419,08
+392,2000,Ciudad De México,No disponen de energía eléctrica,3740.0,2102753.0,0.001778621,09
+393,2000,Durango,No disponen de energía eléctrica,18942.0,322288.0,0.058773519,10
+394,2000,Guanajuato,No disponen de energía eléctrica,29564.0,918822.0,0.032175982,11
+395,2000,Guerrero,No disponen de energía eléctrica,65344.0,651149.0,0.10035184,12
+396,2000,Hidalgo,No disponen de energía eléctrica,38631.0,491482.0,0.078601047,13
+397,2000,Jalisco,No disponen de energía eléctrica,29193.0,1378666.0,0.021174817,14
+398,2000,México,No disponen de energía eléctrica,46682.0,2743144.0,0.017017699,15
+399,2000,Michoacán,No disponen de energía eléctrica,36056.0,846333.0,0.042602616,16
+400,2000,Morelos,No disponen de energía eléctrica,5347.0,354035.0,0.015103027,17
+401,2000,Nayarit,No disponen de energía eléctrica,9487.0,219181.0,0.043283861,18
+402,2000,Nuevo León,No disponen de energía eléctrica,10832.0,878600.0,0.012328705,19
+403,2000,Oaxaca,No disponen de energía eléctrica,90818.0,738087.0,0.123045115,20
+404,2000,Puebla,No disponen de energía eléctrica,50127.0,1028692.0,0.048728871,21
+405,2000,Querétaro,No disponen de energía eléctrica,16364.0,295143.0,0.05544431,22
+406,2000,Quintana Roo,No disponen de energía eléctrica,9194.0,210482.0,0.043680695,23
+407,2000,San Luis Potosí,No disponen de energía eléctrica,54388.0,489828.0,0.111034894,24
+408,2000,Sinaloa,No disponen de energía eléctrica,19592.0,572816.0,0.034202955,25
+409,2000,Sonora,No disponen de energía eléctrica,18952.0,527427.0,0.035932935,26
+410,2000,Tabasco,No disponen de energía eléctrica,23680.0,410388.0,0.057701492,27
+411,2000,Tamaulipas,No disponen de energía eléctrica,34749.0,677489.0,0.05129087,28
+412,2000,Tlaxcala,No disponen de energía eléctrica,4413.0,193288.0,0.022831216,29
+413,2000,Veracruz,No disponen de energía eléctrica,165893.0,1597311.0,0.103857671,30
+414,2000,Yucatán,No disponen de energía eléctrica,16457.0,371242.0,0.044329575,31
+415,2000,Zacatecas,No disponen de energía eléctrica,12111.0,298217.0,0.040611367,32
+416,2000,Aguascalientes,No disponen de agua entubada,5120.0,199398.0,0.025677289,01
+417,2000,Baja California,No disponen de agua entubada,52315.0,559402.0,0.093519508,02
+418,2000,Baja California Sur,No disponen de agua entubada,12359.0,104341.0,0.118448165,03
+419,2000,Campeche,No disponen de agua entubada,29896.0,156125.0,0.19148759,04
+420,2000,Coahuila,No disponen de agua entubada,30927.0,539169.0,0.057360494,05
+421,2000,Colima,No disponen de agua entubada,6716.0,124714.0,0.053851212,06
+422,2000,Chiapas,No disponen de agua entubada,234364.0,778845.0,0.300912248,07
+423,2000,Chihuahua,No disponen de agua entubada,51288.0,733379.0,0.069933827,08
+424,2000,Ciudad De México,No disponen de agua entubada,50230.0,2102753.0,0.023887732,09
+425,2000,Durango,No disponen de agua entubada,28535.0,322288.0,0.088538822,10
+426,2000,Guanajuato,No disponen de agua entubada,96970.0,918822.0,0.105537308,11
+427,2000,Guerrero,No disponen de agua entubada,250372.0,651149.0,0.384508,12
+428,2000,Hidalgo,No disponen de agua entubada,95869.0,491482.0,0.19506106,13
+429,2000,Jalisco,No disponen de agua entubada,137454.0,1378666.0,0.099700725,14
+430,2000,México,No disponen de agua entubada,251300.0,2743144.0,0.091610211,15
+431,2000,Michoacán,No disponen de agua entubada,138039.0,846333.0,0.163102467,16
+432,2000,Morelos,No disponen de agua entubada,45854.0,354035.0,0.129518268,17
+433,2000,Nayarit,No disponen de agua entubada,31546.0,219181.0,0.143926709,18
+434,2000,Nuevo León,No disponen de agua entubada,50574.0,878600.0,0.057562031,19
+435,2000,Oaxaca,No disponen de agua entubada,244265.0,738087.0,0.330943371,20
+436,2000,Puebla,No disponen de agua entubada,222285.0,1028692.0,0.216085087,21
+437,2000,Querétaro,No disponen de agua entubada,31344.0,295143.0,0.106199368,22
+438,2000,Quintana Roo,No disponen de agua entubada,19252.0,210482.0,0.091466254,23
+439,2000,San Luis Potosí,No disponen de agua entubada,111847.0,489828.0,0.228339335,24
+440,2000,Sinaloa,No disponen de agua entubada,80659.0,572816.0,0.14081136,25
+441,2000,Sonora,No disponen de agua entubada,40100.0,527427.0,0.076029479,26
+442,2000,Tabasco,No disponen de agua entubada,122256.0,410388.0,0.297903447,27
+443,2000,Tamaulipas,No disponen de agua entubada,59872.0,677489.0,0.088373391,28
+444,2000,Tlaxcala,No disponen de agua entubada,16738.0,193288.0,0.086596167,29
+445,2000,Veracruz,No disponen de agua entubada,526501.0,1597311.0,0.329617088,30
+446,2000,Yucatán,No disponen de agua entubada,36351.0,371242.0,0.097917262,31
+447,2000,Zacatecas,No disponen de agua entubada,45798.0,298217.0,0.153572734,32
+448,2000,Aguascalientes,No disponen de drenaje,8978.0,199398.0,0.045025527,01
+449,2000,Baja California,No disponen de drenaje,97480.0,559402.0,0.174257511,02
+450,2000,Baja California Sur,No disponen de drenaje,19626.0,104341.0,0.188094805,03
+451,2000,Campeche,No disponen de drenaje,55851.0,156125.0,0.357732586,04
+452,2000,Coahuila,No disponen de drenaje,87165.0,539169.0,0.161665452,05
+453,2000,Colima,No disponen de drenaje,7772.0,124714.0,0.062318585,06
+454,2000,Chiapas,No disponen de drenaje,288401.0,778845.0,0.370293191,07
+455,2000,Chihuahua,No disponen de drenaje,104650.0,733379.0,0.142695659,08
+456,2000,Ciudad De México,No disponen de drenaje,28606.0,2102753.0,0.01360407,09
+457,2000,Durango,No disponen de drenaje,82814.0,322288.0,0.256956511,10
+458,2000,Guanajuato,No disponen de drenaje,211176.0,918822.0,0.229833417,11
+459,2000,Guerrero,No disponen de drenaje,297042.0,651149.0,0.456181304,12
+460,2000,Hidalgo,No disponen de drenaje,166247.0,491482.0,0.338256538,13
+461,2000,Jalisco,No disponen de drenaje,105503.0,1378666.0,0.076525424,14
+462,2000,México,No disponen de drenaje,361112.0,2743144.0,0.131641649,15
+463,2000,Michoacán,No disponen de drenaje,209418.0,846333.0,0.24744161,16
+464,2000,Morelos,No disponen de drenaje,50076.0,354035.0,0.141443643,17
+465,2000,Nayarit,No disponen de drenaje,42098.0,219181.0,0.192069568,18
+466,2000,Nuevo León,No disponen de drenaje,77882.0,878600.0,0.088643296,19
+467,2000,Oaxaca,No disponen de drenaje,397454.0,738087.0,0.538492075,20
+468,2000,Puebla,No disponen de drenaje,348939.0,1028692.0,0.339206487,21
+469,2000,Querétaro,No disponen de drenaje,69588.0,295143.0,0.235777233,22
+470,2000,Quintana Roo,No disponen de drenaje,33044.0,210482.0,0.156992047,23
+471,2000,San Luis Potosí,No disponen de drenaje,182497.0,489828.0,0.372573638,24
+472,2000,Sinaloa,No disponen de drenaje,144213.0,572816.0,0.251761473,25
+473,2000,Sonora,No disponen de drenaje,107075.0,527427.0,0.203013877,26
+474,2000,Tabasco,No disponen de drenaje,58347.0,410388.0,0.14217521,27
+475,2000,Tamaulipas,No disponen de drenaje,170983.0,677489.0,0.252377529,28
+476,2000,Tlaxcala,No disponen de drenaje,32965.0,193288.0,0.170548611,29
+477,2000,Veracruz,No disponen de drenaje,506707.0,1597311.0,0.317225011,30
+478,2000,Yucatán,No disponen de drenaje,152448.0,371242.0,0.410643192,31
+479,2000,Zacatecas,No disponen de drenaje,86393.0,298217.0,0.289698441,32
+480,2000,Aguascalientes,No disponen de computadora,171754.0,199398.0,0.861362702,01
+481,2000,Baja California,No disponen de computadora,463051.0,559402.0,0.827760716,02
+482,2000,Baja California Sur,No disponen de computadora,91012.0,104341.0,0.872255393,03
+483,2000,Campeche,No disponen de computadora,146369.0,156125.0,0.937511609,04
+484,2000,Coahuila,No disponen de computadora,480460.0,539169.0,0.891112063,05
+485,2000,Colima,No disponen de computadora,111878.0,124714.0,0.897076511,06
+486,2000,Chiapas,No disponen de computadora,744672.0,778845.0,0.956123491,07
+487,2000,Chihuahua,No disponen de computadora,649440.0,733379.0,0.885544855,08
+488,2000,Ciudad De México,No disponen de computadora,1632934.0,2102753.0,0.776569573,09
+489,2000,Durango,No disponen de computadora,296522.0,322288.0,0.920052872,10
+490,2000,Guanajuato,No disponen de computadora,839430.0,918822.0,0.91359371,11
+491,2000,Guerrero,No disponen de computadora,622235.0,651149.0,0.955595417,12
+492,2000,Hidalgo,No disponen de computadora,463711.0,491482.0,0.943495387,13
+493,2000,Jalisco,No disponen de computadora,1201150.0,1378666.0,0.87124075,14
+494,2000,México,No disponen de computadora,2426608.0,2743144.0,0.884608318,15
+495,2000,Michoacán,No disponen de computadora,791305.0,846333.0,0.934980675,16
+496,2000,Morelos,No disponen de computadora,318414.0,354035.0,0.899385654,17
+497,2000,Nayarit,No disponen de computadora,205610.0,219181.0,0.938083137,18
+498,2000,Nuevo León,No disponen de computadora,742526.0,878600.0,0.845124061,19
+499,2000,Oaxaca,No disponen de computadora,708953.0,738087.0,0.960527688,20
+500,2000,Puebla,No disponen de computadora,954498.0,1028692.0,0.927875399,21
+501,2000,Querétaro,No disponen de computadora,252964.0,295143.0,0.857089614,22
+502,2000,Quintana Roo,No disponen de computadora,189764.0,210482.0,0.90156878,23
+503,2000,San Luis Potosí,No disponen de computadora,452412.0,489828.0,0.923614003,24
+504,2000,Sinaloa,No disponen de computadora,529034.0,572816.0,0.923567079,25
+505,2000,Sonora,No disponen de computadora,467294.0,527427.0,0.885988014,26
+506,2000,Tabasco,No disponen de computadora,385991.0,410388.0,0.940551381,27
+507,2000,Tamaulipas,No disponen de computadora,615584.0,677489.0,0.908625823,28
+508,2000,Tlaxcala,No disponen de computadora,182088.0,193288.0,0.942055379,29
+509,2000,Veracruz,No disponen de computadora,1512967.0,1597311.0,0.947196257,30
+510,2000,Yucatán,No disponen de computadora,340208.0,371242.0,0.916404933,31
+511,2000,Zacatecas,No disponen de computadora,278850.0,298217.0,0.935057358,32
+512,2000,Aguascalientes,No disponen de televisor,6992.0,199398.0,0.035065547,01
+513,2000,Baja California,No disponen de televisor,21377.0,559402.0,0.038214021,02
+514,2000,Baja California Sur,No disponen de televisor,9777.0,104341.0,0.09370238,03
+515,2000,Campeche,No disponen de televisor,37440.0,156125.0,0.239807846,04
+516,2000,Coahuila,No disponen de televisor,25682.0,539169.0,0.04763256,05
+517,2000,Colima,No disponen de televisor,12181.0,124714.0,0.097671472,06
+518,2000,Chiapas,No disponen de televisor,307124.0,778845.0,0.394332634,07
+519,2000,Chihuahua,No disponen de televisor,64427.0,733379.0,0.087849529,08
+520,2000,Ciudad De México,No disponen de televisor,50220.0,2102753.0,0.023882976,09
+521,2000,Durango,No disponen de televisor,34540.0,322288.0,0.107171226,10
+522,2000,Guanajuato,No disponen de televisor,72958.0,918822.0,0.079403845,11
+523,2000,Guerrero,No disponen de televisor,190891.0,651149.0,0.293160244,12
+524,2000,Hidalgo,No disponen de televisor,118042.0,491482.0,0.240175632,13
+525,2000,Jalisco,No disponen de televisor,73431.0,1378666.0,0.053262357,14
+526,2000,México,No disponen de televisor,217278.0,2743144.0,0.079207654,15
+527,2000,Michoacán,No disponen de televisor,107749.0,846333.0,0.127312772,16
+528,2000,Morelos,No disponen de televisor,31668.0,354035.0,0.089448783,17
+529,2000,Nayarit,No disponen de televisor,27029.0,219181.0,0.123318171,18
+530,2000,Nuevo León,No disponen de televisor,33924.0,878600.0,0.038611427,19
+531,2000,Oaxaca,No disponen de televisor,311362.0,738087.0,0.421849999,20
+532,2000,Puebla,No disponen de televisor,208988.0,1028692.0,0.203158963,21
+533,2000,Querétaro,No disponen de televisor,33810.0,295143.0,0.11455464,22
+534,2000,Quintana Roo,No disponen de televisor,37529.0,210482.0,0.178300282,23
+535,2000,San Luis Potosí,No disponen de televisor,97654.0,489828.0,0.199363858,24
+536,2000,Sinaloa,No disponen de televisor,64634.0,572816.0,0.112835535,25
+537,2000,Sonora,No disponen de televisor,42980.0,527427.0,0.08148995,26
+538,2000,Tabasco,No disponen de televisor,94946.0,410388.0,0.231356667,27
+539,2000,Tamaulipas,No disponen de televisor,61335.0,677489.0,0.090532835,28
+540,2000,Tlaxcala,No disponen de televisor,23441.0,193288.0,0.121274989,29
+541,2000,Veracruz,No disponen de televisor,361117.0,1597311.0,0.226078077,30
+542,2000,Yucatán,No disponen de televisor,61491.0,371242.0,0.165635892,31
+543,2000,Zacatecas,No disponen de televisor,28065.0,298217.0,0.094109323,32
