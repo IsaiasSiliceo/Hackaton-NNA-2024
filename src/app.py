@@ -90,6 +90,8 @@ fig2.update_layout(xaxis_title='Tipo de Discapacidad', yaxis_title='Número de N
 
 
 app = Dash(__name__)
+server = app.server
+
 # Define the meta tags and link tags
 app.index_string = '''
 <!DOCTYPE html>
