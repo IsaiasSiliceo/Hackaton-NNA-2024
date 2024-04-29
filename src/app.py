@@ -10,10 +10,6 @@ import zipfile
 import json
 
 from dash import Dash, html, dcc, callback, Output, Input
-import geopandas as gpd
-from shapely.geometry import Polygon
-import ast
-from shapely import wkt
 
 import plotly.graph_objs as go
 
@@ -207,7 +203,7 @@ app.layout = html.Div([
         # Image 1
         html.Img(src="../assets/Indigenas.jpeg", style={'width': '100%', 'height': 'auto','display':'inline-block'}),
         # Image 2
-        html.Img(src="../assets/Discapacidad.jpeg", style={'width': '100%', 'height': 'auto','display':'inline-block'})
+        html.Img(src="../assets/afrodescendientes.jpeg", style={'width': '100%', 'height': 'auto','display':'inline-block'})
     ], style={'width': '80%', 'margin': '0 auto', 'display': 'inline-flex','text-align': 'center'}),
     html.Div(style={'height': '30px'}),
 
