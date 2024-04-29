@@ -10,46 +10,110 @@ import zipfile
 import json
 
 from dash import Dash, html, dcc, callback, Output, Input
+import geopandas as gpd
+from shapely.geometry import Polygon
+import ast
+from shapely import wkt
+
+import plotly.graph_objs as go
 
 datos = pd.read_csv('../mapa.csv')
 
-with zipfile.ZipFile('../geo.zip', 'r') as zip_ref:
-    # Extract the JSON file from the ZIP archive
-    zip_ref.extractall()
-
-with open('geo.json', 'r') as f:
-    counties = json.load(f)
 
 
-# Histograma 1
-counts_df = pd.read_csv('../Zai6a9.csv')
-discapacidad_columns = [
-    'Muletas', 'Aparato  auditivo', 'Lengua de señas', 'Silla de rueda',
-    'Lentes', 'Otro', 'Ninguno'
-]
+#conteo
+counts_hist1 = {
+    'Edad de 6 a 9': {'Muletas': 33427, 'Aparato auditivo': 37990, 'Lengua de señas': 27677, 'Silla de rueda': 19310, 'Lentes': 190760, 'Otro': 62816, 'Ninguno': 1175772},
+    'Edad de 10 a 13': {'Muletas': 7130, 'Aparato auditivo': 18541, 'Lengua de señas': 7333, 'Silla de rueda': 3939, 'Lentes': 307592, 'Otro': 37596, 'Ninguno': 1691828},
+    'Edad de 14 a 17': {'Muletas': 3543, 'Aparato auditivo': 11347, 'Lengua de señas': 4122, 'Silla de rueda': 2842, 'Lentes': 333126, 'Otro': 20177, 'Ninguno': 1362447}
+}
 
-fig_6a9 = px.bar(counts_df, x='Tipo de Discapacidad', y='Número de Niños', title='Discapacidad en niños de 6 a 9',
-             labels={'Número de Niños':'Número de Niños', 'Tipo de Discapacidad': 'Tipo de Discapacidad'})
-
-fig_6a9.update_layout(xaxis_title='Tipo de Discapacidad', yaxis_title='Número de Niños',
-                  title={'text': 'Discapacidad en niños de 6 a 9 años', 'y':0.9, 'x':0.5, 'xanchor': 'center', 'yanchor': 'top'},
-                  xaxis_tickangle=-45)
-
-# Histograma 2
-discapacidad_columns = [
-    'Muletas', 'Aparato  auditivo', 'Lengua de señas', 'Silla de rueda',
-    'Lentes', 'Otro', 'Ninguno'
-]
-
-counts_df3 = pd.read_csv('../Zai.csv')
-fig3 = px.bar(counts_df3, x='Tipo de Discapacidad', y='Número de Niños', title='Discapacidad en niños de 10 a 13 años',
-             labels={'Número de Niños':'Número de Niños', 'Tipo de Discapacidad': 'Tipo de Discapacidad'})
-
-fig3.update_layout(xaxis_title='Tipo de Discapacidad', yaxis_title='Número de Niños',
-                  title={'text': 'Discapacidad en niños de 10 a 13 años', 'y':0.9, 'x':0.5, 'xanchor': 'center', 'yanchor': 'top'},
-                  xaxis_tickangle=-45)
+df_hist1 = pd.DataFrame(counts_hist1)
 
 
+fig_Z1 = go.Figure()
+
+
+colors = ['#89458D', '#48CFAE', '#227C9D', '#FF5733', '#FFC300', '#8A2BE2', '#FF4500']
+
+# Agregar barras para cada edad
+for i, (column, color) in enumerate(zip(df_hist1.columns, colors)):
+    fig_Z1.add_trace(go.Bar(
+        x=df_hist1.index,
+        y=df_hist1[column],
+        name=column,
+        marker_color=color,
+        textposition='auto' 
+    ))
+
+
+fig_Z1.update_layout(
+    title="Discapacidad",
+    xaxis_title="Tipo de Discapacidad",
+    yaxis_title="Número de Niñas",
+    barmode='group'
+)
+
+
+#Definir los conteos para el primer histograma
+counts_hist1 = {
+    'Edad de 6 a 9': {'Niñas': 134207, 'Niños': 35582, 'Niñas y Niños por igual': 481374, 'Ninguno': 13938},
+    'Edad de 10 a 13': {'Niñas': 97789, 'Niños': 15425, 'Niñas y Niños por igual': 838938, 'Ninguno': 12839},
+    'Edad de 14 a 17': {'Niñas': 233445, 'Niños': 33783, 'Niñas y Niños por igual': 549594, 'Ninguno': 39636}
+}
+
+# Definir los conteos para el segundo histograma
+counts_hist2 = {
+    'Edad de 6 a 9': {'Niñas': 166880, 'Niños': 31784, 'Niñas y Niños por igual': 362066, 'Ninguno': 114866},
+    'Edad de 10 a 13': {'Niñas': 163037, 'Niños': 11640, 'Niñas y Niños por igual': 760876, 'Ninguno': 48377},
+    'Edad de 14 a 17': {'Niñas': 56763, 'Niños': 7089, 'Niñas y Niños por igual': 798883, 'Ninguno': 3472}
+}
+
+# Crear los DataFrames
+df_hist1 = pd.DataFrame(counts_hist1)
+df_hist2 = pd.DataFrame(counts_hist2)
+
+# Concatenar los DataFrames
+result_df = pd.concat([df_hist1, df_hist2], keys=['En mi casa dicen que son más inteligentes…', ' Para ti, ¿quiénes pueden realizar tareas de la casa (lavar, planchar, limpiar, cocinar, entre otras)?'])
+
+# Colores para las barras
+colors = ['#89458D', '#48CFAE', '#227C9D']
+
+# pregunta 1
+fig1 = go.Figure()
+for i, column in enumerate(df_hist1.columns):
+    fig1.add_trace(go.Bar(
+        x=df_hist1.index,
+        y=df_hist1[column],
+        name=column,
+        marker_color=colors[i]
+    ))
+
+fig1.update_layout(
+    title="En mi casa dicen que son más inteligentes…",
+    xaxis_title="Respuesta",
+    yaxis_title="Número de Niñas",
+    barmode='group'
+)
+
+# pregunta 2
+fig2 = go.Figure()
+for i, column in enumerate(df_hist2.columns):
+    fig2.add_trace(go.Bar(
+        x=df_hist2.index,
+        y=df_hist2[column],
+        name=column,
+        marker_color=colors[i]
+    ))
+
+fig2.update_layout(
+    title="Para ti, ¿quiénes pueden realizar tareas de la casa (lavar, planchar, limpiar, cocinar, entre otras)?",
+    xaxis_title="Respuesta",
+    yaxis_title="Número de  Niñas",
+    barmode='group'
+)
+
+# Mostrar los histogramas
 # Violencia
 
 
@@ -74,22 +138,8 @@ fig1 = px.bar(data, x='Grupo de edad', y='Valor', color='Género',
 fig1.update_layout(title='Casos de violencia en niñas, niños y jóvenes en CDMX')
 
 
-discapacidad_columns = [
-    'Muletas', 'Aparato  auditivo', 'Lengua de señas', 'Silla de rueda',
-    'Lentes', 'Otro', 'Ninguno'
-]
 
-counts_df2 = pd.read_csv('../Zai14a17.csv')
-fig2 = px.bar(counts_df2, x='Tipo de Discapacidad', y='Número de Niños', title='Discapacidad en niños de 14 a 17 años',
-             labels={'Número de Niños':'Número de Niños', 'Tipo de Discapacidad': 'Tipo de Discapacidad'})
-
-fig2.update_layout(xaxis_title='Tipo de Discapacidad', yaxis_title='Número de Niños',
-                  title={'text': 'Discapacidad en niños de 14 a 17 años', 'y':0.9, 'x':0.5, 'xanchor': 'center', 'yanchor': 'top'},
-                  xaxis_tickangle=-45)
-
-
-
-app = Dash(__name__)
+app = Dash(__name__,external_scripts=["https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"])
 server = app.server
 
 # Define the meta tags and link tags
@@ -114,6 +164,7 @@ app.index_string = '''
         <footer>
             {%config%}
             {%scripts%}
+            
             {%renderer%}
         </footer>
     </body>
@@ -122,48 +173,34 @@ app.index_string = '''
 app.layout = html.Div([
     # Espacio para un nuevo título
     html.Div(style={'height': '50px'}),
-    html.Div(
+     html.Div(
         children=html.Div([
-            html.H1('Cómo viven las Niñas, Niños y Adolescentes en México'),
-            html.Div(style={'height': '10px'}),
-            html.Div('Visualización de la distribución de NNA de acuerdo a la accesibilidad de servicios por cantidad de viviendas.')
+            html.H1('¿Cómo viven niñas, niños y adolescentes en México?'),
+            html.Div(style={'height': '30px'}),
+            html.Div(children=[' La infancia es algo que todos tenemos en común, sin embargo no todos la vivimos de la misma manera. Cuando nos preguntan sobre la situación de los niños en el país es inevitable recurrir a nuestra experiencia como punto de partida y formar una gran parte de nuestra opinión basada en ella, sin embargo esta forma de pensar puede llevarnos a conclusiones erradas. Por ejemplo, en esta era tecnológica resulta sensato creer que la gran mayoría de personas tienen acceso a internet, pues hoy en día más que un lujo, el internet representa una vía de acceso al conocimiento y la información. Actualmente vivir sin internet puede sonar tan arcaico como vivir sin electricidad, sin embargo más de 16 millones de hogares en México no cuentan con acceso a internet. Aunque parezca sorprendente millones de niñas, niños y jóvenes en México no cuentan con servicios básicos como electricidad o agua corriente. A continuación mostramos algunos datos y gráficos que nos pueden ayudar a comprender cómo vive la niñez en México con base en los datos proporcionados por el REDIM en la base Infancia Cuenta en México (2020) y algunas de sus respuestas sobre experiencias de violencia o agresión y discriminación obtenidas de la Consulta Infantil y Juvenil del INE (2018).']),
+            html.Div(style={'height': '30px'}),
+            html.Div(className='data-text', 
+                     children='En México hay 38.2 millones de niñas, niños y adolescentes de 0 a 17 años de edad; esto representa el 30% de la población total del país.')
         ], style={'width': '90%', 'margin': '0 auto'})
     ),
     html.Div(style={'height': '20px'}),
     # First row
     html.Div([
-        # Barra para buscar un filtro entre grupos
-        # Formato: Unicos | Grupo | id para la función
-        # ['Población afrodescendiente',
-       #'Población con condición mental', 'Población con discapacidad',
-       #'Población hablante de lengua indígena', 'Población total']
-        dcc.Dropdown(id='Filtro-grupo',options=[{'label': grupo, 'value': grupo} for grupo in datos['Población'].unique()],value='No disponen de energía eléctrica',
-                     style={'width': '100%', 'margin': '0 auto'})
-    ], style={'width': '40%', 'margin': '0 auto'}),
-    # Gráfico
-    html.Div([
-        # Mapa de calor
-        dcc.Graph(id = 'Mapa',hoverData={'points': [{'location': 'Aguascalientes'}],},style={'width': '100%','height':'500px'})     
-    ], style={'width': '80%', 'margin': '0 auto'}),
-    # Slider de los años
-    html.Div([dcc.Slider(datos['Año'].min(),datos['Año'].max(),step=None,id='Slider',value=datos['Año'].max(),
-                        marks={str(year): str(year) for year in datos['Año'].unique()}
-    )], style={'width': '40%','margin':'0 auto'}),
-    #dcc.Graph(id = 'mapa',figure=fig),
+    html.Iframe(src='https://public.tableau.com/views/Carenciadeserviciosenviviendasmexicanas/Dashboard1?:embed=yes&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=yes&:animate_transition=yes&:display_static_image=yes&:display_spinner=yes&:display_overlay=yes&:display_count=yes&language=es-ES',
+                style={'width': '100%', 'height': '1000px', 'border': 'none'})], style={'width': '90%', 'margin': '0 auto'}),
+        
     html.Div(style={'height': '50px'}),
     
     # Third row
     html.Div([html.H2("Cantidad de Viviendas en esta situación y su relación con la diversidad de NNA en México")], style={'width': '90%', 'margin': '0 auto'}),
     html.Div([
-        # Histograma
-        html.Div([
-            dcc.Graph(id='Histograma',style={'width': '100%', 'height': '500px'})
-        ], style={'width': '50%', 'display': 'inline-block'}),
         # Imagen
         html.Div([
             html.Img(src="../assets/Cuadricula.jpeg", style={'width': '100%', 'height': 'auto'})
-        ], style={'width': '50%', 'display': 'inline-block'})
+        ], style={'width': '100%', 'display': 'inline-block'})
     ], style={'width': '80%', 'margin': '0 auto'}),
+    
+    html.Div(style={'height': '30px'}),
     
     html.Div(style={'height': '30px'}),
     html.Div([
@@ -179,16 +216,20 @@ app.layout = html.Div([
         html.H2("¿Cuál es tu percepción de la violencia en ti?"),
         html.Br(),
         html.Br(),
-        html.P("En desarrollo...", className="text"),
         # Add the Plotly Express figure here
-        dcc.Graph(figure=fig1),
-        html.H2("Discapacidad en Niñas, Niños y Adolescentes en México")
-    ],style={'width': '70%', 'margin': '0 auto'}),
+    ]),
+
     html.Div([
-        dcc.Graph(figure=fig_6a9, style={'display': 'inline-block', 'width': '30%'}),
-        dcc.Graph(figure=fig3, style={'display': 'inline-block', 'width': '30%'}),
-        dcc.Graph(figure=fig2, style={'display': 'inline-block', 'width': '30%'})
-    ], style={'width': '100%', 'margin': '0 auto'}),
+        dcc.Graph(figure=fig1, style={'width': '50%'}),
+        html.Div(className="card", children=[
+            html.Div(className="card-body", children=[
+                html.H4("Protege a quienes te rodean"),
+                html.P("Los beneficios de la vacunación contra el COVID-19 son que la vacuna que recibimos también puede ayudar a proteger a las personas que nos rodean.", className="text item")
+            ], style={'width': '100%'})],style={'width': '50%'})
+    ], style={'display':'flex','width': '100%', 'margin': '0 auto'}),
+    html.Div([html.H2("Discapacidad en Niñas, Niños y Adolescentes en México")]),
+    html.Div(className='data-text',children=[' La discapacidad más común entre los niños y adolescentes en México es la necesidad de "Lentes", lo que sugiere un impacto significativo en su acceso a la educación y su participación en actividades diarias.']),
+    html.Div(dcc.Graph(figure=fig_Z1)),
     html.Div(className='space'),
     html.Div(className="footer-cont", children=[
         html.Div(className="part2-footer", children=[
@@ -220,56 +261,6 @@ app.layout = html.Div([
     
 ])
 
-@callback(
-    Output('Mapa', 'figure'),
-    Input('Slider', 'value'),
-    Input('Filtro-grupo','value'))
-def update_graph(year_value,group):
-    dff = datos[datos['Año'] == year_value]
-    #dff = dff[dff['Pblación']==group]
-    
-    fig = px.choropleth_mapbox(dff, geojson=counties, 
-                           featureidkey='properties.cve_agee',
-                           locations='cve_agee', color='Cantidad',color_continuous_scale='Oryel',
-                           mapbox_style="carto-positron",
-                           zoom=3, center = {"lat": 19.42847, "lon": -99.12766},
-                           range_color=(150000,200000),
-                           opacity=0.5,
-                           labels={'Metrica':'Metrica'}
-                          )
-    fig.update_layout(
-        hoverlabel=dict(
-            bgcolor="white",
-            font_size=16,
-            font_family="Rockwell"
-        )
-    )
-    return fig
-
-@app.callback(
-    Output('Histograma', 'figure'),
-    [Input('Mapa', 'hoverData'),
-     Input('Slider', 'value'),
-     Input('Filtro-grupo','value')]
-)
-def update_histogram(hoverData, year,column):
-    if hoverData is None:
-        # If hoverData is None, set default value
-        country_name = 'Aguascalientes'
-    else:
-        # Extract 'Estados' value from hoverData
-        country_location = hoverData['points'][0]['location']
-        filtered_data = datos[datos['cve_agee'] == country_location]
-        if not filtered_data.empty:
-            country_name = filtered_data['Entidad'].iloc[0]
-        else:
-            country_name = 'Unknown'
-    
-    # Filter DataFrame based on 'Estados' and 'Año'
-    dff = datos[(datos['Entidad'] == country_name) & (datos['Año'] == year)]
-
-    return create_histogram(dff,country_name,column)
-
 def create_histogram(datos,country_name,column):
     
     fig = px.line(datos, x='Población', y='Cantidad', markers=True,title=country_name)
@@ -278,5 +269,7 @@ def create_histogram(datos,country_name,column):
     #fig.update_layout(height=225, margin={'l': 30, 'b': 30, 'r': 30, 't': 30})
 
     return fig
+    
+
 if __name__ == '__main__':
     app.run(debug=True)
