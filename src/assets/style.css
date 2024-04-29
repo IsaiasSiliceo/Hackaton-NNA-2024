@@ -10,6 +10,15 @@ body {
     /* background-color: lightblue; */
 }
 
+
+/* New Style 4 Hackathon */
+
+
+.data-text {
+    font-size: 35px;
+    color: black;
+}
+
 /* Barra de navegacion */
 
 header {
@@ -73,7 +82,12 @@ button{
     background-color: #1F3E72;
     cursor: pointer;
 }
-
+body {
+    font-family: 'League Spartan', sans-serif;
+    padding: 0;
+    color: #227C9D;
+    /* background-color: lightblue; */
+}
 
 /* Main */
 /* Primer seccion */
