@@ -219,8 +219,7 @@ app.layout = html.Div([
         dcc.Graph(figure=fig1, style={'width': '50%'}),
         html.Div(className="card", children=[
             html.Div(className="card-body", children=[
-                html.H4("Protege a quienes te rodean"),
-                html.P("Los beneficios de la vacunación contra el COVID-19 son que la vacuna que recibimos también puede ayudar a proteger a las personas que nos rodean.", className="text item")
+                html.P("'El castigo corporal y humillante contra niñas, niños y adolescentes, es una manera de crianza arraigada en nuestro país, aunque no hay cifras exactas sobre el castigo corporal y humillante contra niñas, niños y adolescentes en México, se puede comenzar a visibilizar la problemática. El siguiente gráfico muestra cuántos niños, niñas y jóvenes dijeron haber experimentado alguna clase de agresión en la CDMX.", className="text item")
             ], style={'width': '100%'})],style={'width': '50%'})
     ], style={'display':'flex','width': '100%', 'margin': '0 auto'}),
     html.Div([html.H2("Discapacidad en Niñas, Niños y Adolescentes en México")]),
@@ -232,13 +231,19 @@ app.layout = html.Div([
             html.Table(className="footer-menu", children=[
                 html.Tr(children=[
                     html.Th("Acerca de", className="footer-title"),
-                    html.Th("Redes", className="footer-title"),
+                    html.Th("Zai", className="footer-title"),
+                    html.Th("Semir-amis", className="footer-title"),
+                    html.Th("GSV", className="footer-title"),
+                    html.Th("Chay", className="footer-title"),
                     html.Th("CIMAT", className="footer-title"),
                     html.Th("REDiM", className="footer-title")
                 ]),
                 html.Tr(children=[
                     html.Td(html.A("Data-neitors", href="#"), className="footer-item"),
-                    html.Td(html.A("LinkedIn", href="https://www.linkedin.com/in/isaiassiliceo-096810268/",target="_blank"), className="footer-item"),
+                    html.Td(html.A("Zaira", href="https://www.linkedin.com/in/zaira-l%C3%B3pez-ju%C3%A1rez-29b0b026a/",target="_blank"), className="footer-item"),
+                    html.Td(html.A("Semiramis", href="https://www.linkedin.com/in/semiramis-g-de-la-cruz-56b3181b4/",target="_blank"), className="footer-item"),
+                    html.Td(html.A("Guillermo", href="https://www.linkedin.com/in/guillermo-sierra-vargas-05061720a/",target="_blank"), className="footer-item"),
+                    html.Td(html.A("Isaias", href="https://www.linkedin.com/in/isaiassiliceo-096810268/",target="_blank"), className="footer-item"),
                     html.Td(html.A("CIMAT-MTY", href="https://www.cimat.mx/nuestras-sedes/sede-monterrey/"), className="footer-item"),
                     html.Td(html.A("REDiM", href="https://derechosinfancia.org.mx/v1/"), className="footer-item")
                 ])
