@@ -178,40 +178,51 @@ app.layout = html.Div([
             html.Div(className='data-text', 
                      children='Con una división bastante equitativa entre niñas (49%) y niños (51%).'),
             html.Img(src="./assets/14.png", style={'width': '100%', 'height': 'auto','display':'inline-block'}),
+            html.Div(style={'height': '30px'}),
+            html.Div(className='data-text', 
+                     children='México es un país notablemente diverso en diversos aspectos, incluida la composición de su población. Esta diversidad se refleja también en la niñez y adolescencia, quienes forman parte de distintos grupos étnicos y presentan una variedad de características únicas.'),
+            html.Img(src="./assets/19.png", style={'width': '100%', 'height': 'auto','display':'inline-block'}),
+            html.Img(src="./assets/21.png", style={'width': '100%', 'height': 'auto','display':'inline-block'}),
+            html.Div(style={'height': '30px'}),
+            html.Div(className='data-text', 
+                     children='La población infantil y juvenil en México enfrenta condiciones y desafíos que ponen en riesgo la garantía de una vida plena. Esto nos lleva a cuestionarnos cómo se puede garantizar el cumplimiento de sus derechos cuando la mitad de ellos vive en pobreza.'),
+            html.Img(src="./assets/17.png", style={'width': '100%', 'height': 'auto','display':'inline-block'}),
+            html.Img(src="./assets/16.png", style={'width': '100%', 'height': 'auto','display':'inline-block'}),
             html.Div(style={'height': '30px'})
+
         ], style={'width': '90%', 'margin': '0 auto'})
     ),
     html.Div(style={'height': '20px'}),
-    # First row
+    # First tableu
     html.Div([
-    html.Iframe(src='https://public.tableau.com/views/Carenciadeserviciosenviviendasmexicanas/Dashboard1?:embed=yes&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=yes&:animate_transition=yes&:display_static_image=yes&:display_spinner=yes&:display_overlay=yes&:display_count=yes&language=es-ES',
-                style={'width': '100%', 'height': '1000px', 'border': 'none'})], style={'width': '90%', 'margin': '0 auto'}),
-        
-    html.Div(style={'height': '50px'}),
-    
-    # Third row
-    html.Div([html.H2("Cantidad de Viviendas en esta situación y su relación con la diversidad de NNA en México")], style={'width': '90%', 'margin': '0 auto'}),
+        html.Div([html.H2("¿Cómo es el lugar en el que viven?")],
+                 style={'width': '90%', 'margin': '0 auto'}),
+        html.Div(html.Iframe(src='https://public.tableau.com/views/Carenciadeserviciosenviviendasmexicanas/Dashboard1?:embed=yes&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=yes&:animate_transition=yes&:display_static_image=yes&:display_spinner=yes&:display_overlay=yes&:display_count=yes&language=es-ES',
+                             style={'width': '100%', 'height': '1000px', 'border': 'none'}),
+                 style={'width': '90%', 'margin': '0 auto'})
+    ],),
+
+    # Second tableu
     html.Div([
-        # Imagen
-        html.Div([
-            html.Img(src="./assets/Cuadricula.jpeg", style={'width': '100%', 'height': 'auto'})
-        ], style={'width': '100%', 'display': 'inline-block'})
-    ], style={'width': '80%', 'margin': '0 auto'}),
-    
-    html.Div(style={'height': '30px'}),
-    
-    html.Div(style={'height': '30px'}),
+        html.Div([html.H2("¿En qué entidades viven las poblaciones infantiles afrodescendientes e indígenas en México?")],
+             style={'width': '90%', 'margin': '0 auto'}),
+        html.Div(html.Iframe(src='https://public.tableau.com/views/PoblacininfantilafrodescendienteeindgenaenMxico/Dashboard2?:language=es-ES&:showVizHome=no&:embed=true',
+                         style={'width': '100%', 'height': '1000px', 'border': 'none'}),
+             style={'width': '90%', 'margin': '0 auto'})
+    ],),
+
+    # Third tableu
     html.Div([
-        # Image 1
-        html.Img(src="./assets/Indigenas.jpeg", style={'width': '100%', 'height': 'auto','display':'inline-block'}),
-        # Image 2
-        html.Img(src="./assets/afrodescendientes.jpeg", style={'width': '100%', 'height': 'auto','display':'inline-block'})
-    ], style={'width': '80%', 'margin': '0 auto', 'display': 'inline-flex','text-align': 'center'}),
-    html.Div(style={'height': '30px'}),
+        html.Div([html.H2("¿Cómo se relaciona la carencia de servicios con diversas poblaciones?")],
+                 style={'width': '90%', 'margin': '0 auto'}),
+        html.Div(html.Iframe(src='https://public.tableau.com/views/Relacinentrepoblacionesespecficasmexicanasycarenciaenlosservicios_/Dashboard1?:language=es-ES&:showVizHome=no&:embed=true',
+                             style={'width': '100%', 'height': '1000px', 'border': 'none'}),
+                 style={'width': '90%', 'margin': '0 auto'})
+    ],),
+
 
     html.Div(className="part1-text2", children=[
-        html.H1('Consulta Infantil y Juvenil 2018 '),
-        html.H2("¿Cuál es tu percepción de la violencia en ti?"),
+        html.H2("¿"),
         html.Br(),
         html.Br(),
         # Add the Plotly Express figure here
@@ -258,7 +269,7 @@ app.layout = html.Div([
         html.Img(src="/assets/mtylogo(1).png",style={'width': '10%', 'height': 'auto'}),
         html.Div(className="links", children=[
             html.A("3er Hackatón por los Derechos de los Niños, Niñas y Adolescentes", href="https://retos.codeandomexico.org/challenges/3-3er-hackaton-por-los-derechos-de-la-ninez-y-la-adolescencia-en-mexico-2024"),
-            html.P("@2024 La diversidad de las Niñas, Niños y Adolescentes. Data-neitors")
+            html.P("@2024")
         ])
     ])
     
