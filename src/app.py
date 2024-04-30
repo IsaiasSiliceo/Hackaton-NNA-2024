@@ -1,11 +1,8 @@
+# Librerias
 import pandas as pd
-
 import plotly.express as px
-
 import json as json
-
 import numpy as np
-
 import zipfile
 import json
 
@@ -13,11 +10,12 @@ from dash import Dash, html, dcc, callback, Output, Input
 
 import plotly.graph_objs as go
 
-datos = pd.read_csv('../mapa.csv')
+# Datos
+datos = pd.read_csv('./mapa.csv')
 
 
 
-#conteo
+# conteo
 counts_hist1 = {
     'Edad de 6 a 9': {'Muletas': 33427, 'Aparato auditivo': 37990, 'Lengua de señas': 27677, 'Silla de rueda': 19310, 'Lentes': 190760, 'Otro': 62816, 'Ninguno': 1175772},
     'Edad de 10 a 13': {'Muletas': 7130, 'Aparato auditivo': 18541, 'Lengua de señas': 7333, 'Silla de rueda': 3939, 'Lentes': 307592, 'Otro': 37596, 'Ninguno': 1691828},
@@ -173,10 +171,14 @@ app.layout = html.Div([
         children=html.Div([
             html.H1('¿Cómo viven niñas, niños y adolescentes en México?'),
             html.Div(style={'height': '30px'}),
-            html.Div(children=[' La infancia es algo que todos tenemos en común, sin embargo no todos la vivimos de la misma manera. Cuando nos preguntan sobre la situación de los niños en el país es inevitable recurrir a nuestra experiencia como punto de partida y formar una gran parte de nuestra opinión basada en ella, sin embargo esta forma de pensar puede llevarnos a conclusiones erradas. Por ejemplo, en esta era tecnológica resulta sensato creer que la gran mayoría de personas tienen acceso a internet, pues hoy en día más que un lujo, el internet representa una vía de acceso al conocimiento y la información. Actualmente vivir sin internet puede sonar tan arcaico como vivir sin electricidad, sin embargo más de 16 millones de hogares en México no cuentan con acceso a internet. Aunque parezca sorprendente millones de niñas, niños y jóvenes en México no cuentan con servicios básicos como electricidad o agua corriente. A continuación mostramos algunos datos y gráficos que nos pueden ayudar a comprender cómo vive la niñez en México con base en los datos proporcionados por el REDIM en la base Infancia Cuenta en México (2020) y algunas de sus respuestas sobre experiencias de violencia o agresión y discriminación obtenidas de la Consulta Infantil y Juvenil del INE (2018).']),
+            html.Div(className='data-text', 
+                     children='En México hay 38.2 millones de niñas, niños y adolescentes de 0 a 17 años de edad; esto representa el 30% de la población total del país.'),
+            html.Img(src="./assets/13.png", style={'width': '100%', 'height': 'auto','display':'inline-block'}),
             html.Div(style={'height': '30px'}),
             html.Div(className='data-text', 
-                     children='En México hay 38.2 millones de niñas, niños y adolescentes de 0 a 17 años de edad; esto representa el 30% de la población total del país.')
+                     children='Con una división bastante equitativa entre niñas (49%) y niños (51%).'),
+            html.Img(src="./assets/14.png", style={'width': '100%', 'height': 'auto','display':'inline-block'}),
+            html.Div(style={'height': '30px'})
         ], style={'width': '90%', 'margin': '0 auto'})
     ),
     html.Div(style={'height': '20px'}),
@@ -192,7 +194,7 @@ app.layout = html.Div([
     html.Div([
         # Imagen
         html.Div([
-            html.Img(src="../assets/Cuadricula.jpeg", style={'width': '100%', 'height': 'auto'})
+            html.Img(src="./assets/Cuadricula.jpeg", style={'width': '100%', 'height': 'auto'})
         ], style={'width': '100%', 'display': 'inline-block'})
     ], style={'width': '80%', 'margin': '0 auto'}),
     
@@ -201,9 +203,9 @@ app.layout = html.Div([
     html.Div(style={'height': '30px'}),
     html.Div([
         # Image 1
-        html.Img(src="../assets/Indigenas.jpeg", style={'width': '100%', 'height': 'auto','display':'inline-block'}),
+        html.Img(src="./assets/Indigenas.jpeg", style={'width': '100%', 'height': 'auto','display':'inline-block'}),
         # Image 2
-        html.Img(src="../assets/afrodescendientes.jpeg", style={'width': '100%', 'height': 'auto','display':'inline-block'})
+        html.Img(src="./assets/afrodescendientes.jpeg", style={'width': '100%', 'height': 'auto','display':'inline-block'})
     ], style={'width': '80%', 'margin': '0 auto', 'display': 'inline-flex','text-align': 'center'}),
     html.Div(style={'height': '30px'}),
 
