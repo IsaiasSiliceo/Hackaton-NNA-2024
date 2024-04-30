@@ -15,58 +15,62 @@ body {
 
 
 .data-text {
-    font-size: 32px;
+    font-size: 30px;
     color: black;
 }
 
 /* Barra de navegacion */
-
 header {
     background-color: rgba(255, 255, 255, 0.9);
     height: 13vh;
-    width: 90%;
+    width: 100%; /* Cambiar a 100% para ocupar todo el ancho */
     align-items: center;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    padding: 0 20px; /* Agregar un padding a los lados para separar del borde de la pantalla */
 }
+
 .menu {
     list-style-type: none;
     padding: 0;
+    display: flex; /* Para que los elementos de la lista se desplieguen en línea */
+    width: 100%; /* Ocupar todo el ancho de la barra de navegación */
+    justify-content: space-between; /* Distribuir los elementos de manera equitativa */
 }
   
-.menu-item{
-    list-style-type:none;
+.menu-item {
+    list-style-type: none;
+}
+
+.menu-item a {
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out .2s;
+    color: #8b8887;
+    padding: 15px 20px; /* Ajustar el espaciado entre elementos del menú */
 }
 
 #logo {
-    position: relative;
-    left: 50px;
     font-size: x-large;
     font-weight: bold;
     color: #2C4CCA;
 }
 
-.barra-nav a{
-    text-decoration:none;
+.barra-nav a {
+    text-decoration: none;
     align-items: center;
     justify-content: center;
     transition: all ease-in-out .2s;
     color: #8b8887;
 }
-.barra-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-
-.barra-nav li a:hover{
+.barra-nav li a:hover {
     color: #1F3E72;
-    justify-content: center;
 }
 
-button{
+button {
     background-color: #2C4CCA;
     color: white;
     font-family: 'League Spartan', sans-serif;
@@ -77,17 +81,18 @@ button{
     font-size: medium;
 }
 
-
-.button-nav:hover, .button-schedule:hover{
+.button-nav:hover, .button-schedule:hover {
     background-color: #1F3E72;
     cursor: pointer;
 }
+
 body {
     font-family: 'League Spartan', sans-serif;
     padding: 0;
     color: #227C9D;
     /* background-color: lightblue; */
 }
+
 
 /* Main */
 /* Primer seccion */
