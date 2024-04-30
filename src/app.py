@@ -11,7 +11,7 @@ from dash import Dash, html, dcc, callback, Output, Input
 import plotly.graph_objs as go
 
 # Datos
-datos = pd.read_csv('./mapa.csv')
+datos = pd.read_csv('../mapa.csv')
 
 
 
